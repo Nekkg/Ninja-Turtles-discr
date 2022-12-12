@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="d.css">
+    <title>Discriminant</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper green">
+          <img src="../img/logo.png" class="brand-logo" alt="логотип">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="/Frontend/nav/disc.html" class="active">Дискриминант</a></li>
+            <li><a href="../nav/film.html">Фильм</a></li>
+            <li><a href="/reestr.html">Реестр<span class="new badge blue">99+</span></a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <h1>Дано уравнение вида:<br> a*x<sup>2</sup> + b*x +c = 0</h1>
+
+    <div class="fontForRatio">
+        <form>
+            <input type="text" class="valueA" placeholder="Укажите коэфициент a">
+            <input type="text" class="valueB" placeholder="Укажите коэфициент b">
+            <input type="text" class="valueC" placeholder="Укажите коэфициент c">
+            <button type="button" value="Submit" onclick="save()">Send</button>
+        </form>
+        
+
+        <h2>Решение:</h2>
+        <div class="out"></div>
+    </div>
+    
+    <br>
+
+    <a onclick="M.toast({html: 'Легко'})" class="btn">Toast!</a>
+
+    <script src="dscript.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    M.toast({html: 'I am a toast!', classes: 'rounded'})
+    </script>
+</body>
+</html>

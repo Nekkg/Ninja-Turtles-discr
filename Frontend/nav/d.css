@@ -1,0 +1,46 @@
+html{
+    background-color: black;
+    background-image: url(../img/backdisc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+form{
+    border: indigo;
+    margin: 24px; 
+    padding: 12px;
+    width: 200px;
+}
+.out{
+    color: #fafafa;
+    font-size: 24px;
+    padding-left: 24px;
+}
+.active{
+    background-color: #1b5e20;
+}
+.brand-logo{
+    height: 64px;
+    width: 92px;
+}
+h1{
+    color: #fafafa;
+    padding-left: 24px;
+}
+h2{
+    color: #fafafa;
+    padding-left: 24px;
+}
+.fontForRatio{
+    background-color: #26a699e3;
+    width: 400px;
+    margin-left: 24px;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    color: #111 !important;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #111;
+}

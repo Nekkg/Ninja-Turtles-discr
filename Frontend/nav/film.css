@@ -1,0 +1,15 @@
+html{
+    background-color: #111;
+    background-image: url(../) ; /*путь до бэк пик фона*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.brand-logo{
+    height: 64px;
+    width: 92px;
+}
+.active{
+    background-color: #1b5e20;
+}

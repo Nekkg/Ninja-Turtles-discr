@@ -1,0 +1,27 @@
+html{
+    background-color: black;
+    background-image: url(../Frontend/img/back.jpg) ; /*путь до бэк пик фона*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.brand-logo{
+    height: 64px;
+    width: 92px;
+}
+.active{
+    background-color: #1b5e20;
+}
+.characters{
+    color: #fafafa;
+    font-size: 24px;
+    text-align: center;
+}
+
+.page-footer{
+    bottom: 0;
+}
